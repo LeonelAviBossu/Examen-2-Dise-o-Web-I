@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: var( --color-contenido);
+}
+:root{
+	--color-titulos:#2750d0;
+	--color-contenido:#333;
+	--color-naranja:#ff9f06;
+	--color-azul:#2750d0;
+	--fondo-footer:#091f5b;
+}
+.titulo-1{
+	font-weight: 600;
+	font-size: 40px;
+	color: var( --color-titulos);
+	text-align: center;
+}
+#slides{
+	padding-bottom: 20px;
+	
+}
+#services{
+	text-align: center;
+	padding: 100px 0;
+}
+
+.icon-service{
+	color: var( --color-azul);
+    background-color: var( --color-naranja);
+    padding: 13px 20px;
+    border-radius: 50%;
+    font-size: 23px;
+    text-align: center;
+    align-self: center;
+    margin: 0 43%;
+}
+.col-service{
+	padding: 30px 40px;
+    background-color: #dbdbdb;
+    text-align: center;
+}
+#welcome ul {
+	list-style: none;
+}
+#welcome ul li::before {
+  content: "\2022";
+  color: var( --color-naranja); 
+  font-weight: 900;
+  display: inline-block;
+  width: 1em; 
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+#welcome .container{
+	padding: 20px 0;
+}
+.top {
+    text-align: center;
+    padding: 35px 0;
+}
+#gallery {
+	background-color: var( --color-azul);
+	color: #fff;
+	padding: 20px 0;
+}
+.col-gallery{
+	padding: 0;
+}
+.card{
+	padding: 30px 50px;
+	text-align: center;
+	background-color: #dbdbdb;
+	border: none;margin-bottom: 20px;
+}
+.clients{
+	padding: 53px 0;
+}
+span p{
+	color: #3d3d3d;
+	text-align: center;
+}
+span .titulo-1{
+	color: var( --color-naranja);
+}
+h2 {
+    font-size: 27px;
+    font-weight: 800;
+    text-align: center;
+    color: var( --color-contenido);
+}
+header{
+	background-color: #fff;
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: #acbad4;
+	padding: 30px 0;
+	text-align: center;
+	font-size: 13px;
+}
